@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.author          = package["author"]
   s.source          = { :git => package["repository"], :tag => "#{s.version}" }
 
-  s.source_files    = "ios/**/*.{h,m,mm,swift}", "generated/build/generated/ios/**/*.{h,m,mm,swift}"
+  s.source_files    = "ios/**/*.{h,m,mm,swift}", "generated/build/generated/ios/AppAttestSpec/**/*.{h,m,mm,swift}"
 
   s.dependency "React-Core"
 
