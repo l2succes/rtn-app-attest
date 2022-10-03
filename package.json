@@ -1,0 +1,43 @@
+{
+  "name": "rtn-app-attest",
+  "version": "0.0.1",
+  "description": "Exposes DCAppAttest to React Native",
+  "react-native": "js/index",
+  "source": "js/index",
+  "files": [
+    "js",
+    "android",
+    "ios",
+    "rtn-app-attest.podspec",
+    "!android/build",
+    "!ios/build",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
+  "keywords": [
+    "react-native",
+    "ios"
+  ],
+  "repository": "https://github.com/l2succes/rtn-app-attest",
+  "author": "Luc Succes (https://github.com/l2succes)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/l2succes/rtn-app-attest/issues"
+  },
+  "homepage": "https://github.com/l2succes/rtn-app-attest#readme",
+  "devDependencies": {},
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "codegenConfig": {
+    "libraries": [
+      {
+        "name": "AppAttestSpec",
+        "type": "modules",
+        "jsSrcsDir": "js"
+      }
+    ]
+  }
+}
